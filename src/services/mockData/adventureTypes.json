@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "title": "Mystery Detective",
+    "description": "Become master detectives! Solve thrilling whodunits with secret codes, evidence, and mind-bending riddles that arrive in every envelope. Perfect for puzzle lovers & curious minds.",
+    "icon": "Search",
+    "color": "#8B4513",
+    "ctaText": "Crack the Case",
+    "type": "mystery"
+  },
+  {
+    "Id": 2,
+    "title": "Time Explorer",
+    "description": "Travel through time! Immerse yourself in legendary explorers, brave knights, daring civilizations, and enchanted territories. Perfect for history buffs & adventure seekers.",
+    "icon": "Compass",
+    "color": "#D4A017",
+    "ctaText": "Explore Worlds",
+    "type": "history"
+  },
+  {
+    "Id": 3,
+    "title": "A Hero's Journey",
+    "description": "Meet legendary heroes! Discover inspiring stories of courage, kindness, and determination from remarkable people who changed the world. Perfect for dreamers & future leaders.",
+    "icon": "Star",
+    "color": "#FF69B4",
+    "ctaText": "Be Inspired",
+    "type": "heroes"
+  }
+]
