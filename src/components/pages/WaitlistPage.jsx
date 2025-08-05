@@ -9,78 +9,39 @@ import DotsPattern from "@/components/organisms/DotsPattern";
 
 // AWeber Form Component
 const AWeberForm = () => {
+  React.useEffect(() => {
+    // Check if script is already loaded
+    if (document.getElementById('aweber-wjs-a3o6bo3r0')) {
+      return;
+    }
+
+    // Create and load the AWeber script
+    const script = document.createElement('script');
+    script.id = 'aweber-wjs-a3o6bo3r0';
+    script.type = 'text/javascript';
+    script.src = '//forms.aweber.com/form/27/333389527.js';
+    script.async = true;
+
+    // Insert script into document
+    const firstScript = document.getElementsByTagName('script')[0];
+    if (firstScript && firstScript.parentNode) {
+      firstScript.parentNode.insertBefore(script, firstScript);
+    } else {
+      document.head.appendChild(script);
+    }
+
+    // Cleanup function to remove script when component unmounts
+    return () => {
+      const existingScript = document.getElementById('aweber-wjs-a3o6bo3r0');
+      if (existingScript && existingScript.parentNode) {
+        existingScript.parentNode.removeChild(existingScript);
+      }
+    };
+  }, []);
+
   return (
     <div className="max-w-md mx-auto backdrop-blur-sm bg-white/95 shadow-2xl rounded-lg p-6">
-      <form method="post" className="af-form-wrapper" acceptCharset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl">
-        <div style={{ display: "none" }}>
-          <input type="hidden" name="meta_web_form_id" value="333389527" />
-          <input type="hidden" name="meta_split_id" value="" />
-          <input type="hidden" name="listname" value="awlist6905158" />
-          <input type="hidden" name="redirect" value="https://www.aweber.com/thankyou-coi.htm?m=text" id="redirect_273e3d66b253527689b4f639844d23a5" />
-          <input type="hidden" name="meta_adtracking" value="Postmark_Tales" />
-          <input type="hidden" name="meta_message" value="1" />
-          <input type="hidden" name="meta_required" value="name,email" />
-          <input type="hidden" name="meta_tooltip" value="" />
-        </div>
-        <div id="af-form-333389527" className="af-form">
-          <div id="af-header-333389527" className="af-header">
-            <div className="bodyText">
-              <p>&nbsp;</p>
-            </div>
-          </div>
-          <div id="af-body-333389527" className="af-body af-standards">
-            <div className="af-element">
-              <label className="previewLabel" htmlFor="awf_field-118254928">Name:</label>
-              <div className="af-textWrap">
-                <input 
-                  id="awf_field-118254928" 
-                  type="text" 
-                  name="name" 
-                  className="text" 
-                  defaultValue="" 
-                  onFocus={(e) => { if (e.target.value === '') { e.target.value = ''; } }}
-                  onBlur={(e) => { if (e.target.value === '') { e.target.value = ''; } }}
-                  tabIndex="500" 
-                />
-              </div>
-              <div className="af-clear"></div>
-            </div>
-            <div className="af-element">
-              <label className="previewLabel" htmlFor="awf_field-118254929">Email:</label>
-              <div className="af-textWrap">
-                <input 
-                  className="text" 
-                  id="awf_field-118254929" 
-                  type="email" 
-                  name="email" 
-                  defaultValue="" 
-                  tabIndex="501" 
-                  onFocus={(e) => { if (e.target.value === '') { e.target.value = ''; } }}
-                  onBlur={(e) => { if (e.target.value === '') { e.target.value = ''; } }}
-                />
-              </div>
-              <div className="af-clear"></div>
-            </div>
-            <div className="af-element buttonContainer">
-              <input name="submit" className="submit" type="submit" value="Submit" tabIndex="502" />
-              <div className="af-clear"></div>
-            </div>
-            <div className="af-element privacyPolicy" style={{ textAlign: "center" }}>
-              <p>We respect your <a title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank" rel="nofollow">email privacy</a></p>
-              <div className="af-clear"></div>
-            </div>
-            <div className="af-element poweredBy" style={{ textAlign: "center", fontSize: "9px" }}>
-              <p><a href="https://www.aweber.com" title="AWeber Email Marketing" target="_blank" rel="nofollow">Powered by AWeber Email Marketing</a></p>
-              <div className="af-clear"></div>
-            </div>
-          </div>
-          <div id="af-footer-333389527" className="af-footer">
-            <div className="bodyText">
-              <p>&nbsp;</p>
-            </div>
-          </div>
-        </div>
-      </form>
+      <div className="AW-Form-333389527"></div>
     </div>
   );
 };
