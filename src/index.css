@@ -106,6 +106,74 @@ body {
 .gradient-text-navy {
   background: linear-gradient(135deg, #1A2A44 0%, #374151 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+background-clip: text;
+}
+
+/* AWeber Form Styles */
+#af-form-333389527 .af-body{font-family:Verdana, sans-serif;font-size:11px;color:#000000;background-image:none;background-position:inherit;background-repeat:no-repeat;padding-top:15px;padding-bottom:15px;}
+#af-form-333389527 .af-body .privacyPolicy{font-family:Verdana, sans-serif;font-size:11px;color:#000000;}
+#af-form-333389527 {border-style:solid;border-width:1px;border-color:#8C8C8C;background-color:#FFFFFF;}
+#af-form-333389527 .af-standards .af-element{padding-left:15px;padding-right:15px;}
+#af-form-333389527 .af-quirksMode{padding-left:15px;padding-right:15px;}
+#af-form-333389527 .af-header{font-family:Verdana, sans-serif;font-size:16px;color:#FFFFFF;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;border-width:1px;background-image:url("https://forms.aweber.com/images/auto/body/888/888/222/222");background-position:top left;background-repeat:repeat-x;background-color:#222222;padding-left:10px;padding-right:10px;padding-top:9px;padding-bottom:9px;}
+#af-form-333389527 .af-footer{font-family:Verdana, sans-serif;font-size:12px;color:#000000;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;border-width:1px;background-image:none;background-color:transparent;padding-left:15px;padding-right:15px;padding-top:0px;padding-bottom:0px;}
+#af-form-333389527 .af-body input.text, #af-form-333389527 .af-body textarea{border-color:#000000;border-width:1px;border-style:solid;font-family:Verdana, sans-serif;font-size:16px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;background-color:#FFFFFF;}
+#af-form-333389527 .af-body input.text:focus, #af-form-333389527 .af-body textarea:focus{border-style:solid;border-width:1px;border-color:#5E5E5E;background-color:#FFFAD6;}
+#af-form-333389527 .af-body label.previewLabel{font-family:Verdana, sans-serif;font-size:12px;font-weight:normal;font-style:normal;text-decoration:none;color:#4D4D4D;display:block;float:left;text-align:left;width:25%;}
+#af-form-333389527 .af-body .af-textWrap{width:70%;display:block;float:right;}
+#af-form-333389527 .buttonContainer input.submit{font-family:Verdana, sans-serif;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#FFFFFF;background-color:#5E5E5E;background-image:none;}
+#af-form-333389527 .buttonContainer{text-align:right;}
+#af-form-333389527 .af-body label.choice{font-family:inherit;font-size:inherit;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;}
+#af-form-333389527 .af-body a{font-weight:normal;font-style:normal;text-decoration:underline;color:#000000;}
+#af-form-333389527, #af-form-333389527 .quirksMode{width:100%;max-width:225.0px;}
+#af-form-333389527.af-quirksMode{overflow-x:hidden;}
+#af-form-333389527 .af-quirksMode .bodyText{padding-top:2px;padding-bottom:2px;}
+#af-form-333389527{overflow:hidden;}
+#af-form-333389527 button,#af-form-333389527 input,#af-form-333389527 submit,#af-form-333389527 textarea,#af-form-333389527 select,#af-form-333389527 label,#af-form-333389527 optgroup,#af-form-333389527 option {float:none;margin:0;position:static;}
+#af-form-333389527 select,#af-form-333389527 label,#af-form-333389527 optgroup,#af-form-333389527 option {padding:0;}
+#af-form-333389527 input,#af-form-333389527 button,#af-form-333389527 textarea,#af-form-333389527 select {font-size:100%;}
+#af-form-333389527 .buttonContainer input.submit {width:auto;}
+#af-form-333389527 form,#af-form-333389527 textarea,.af-form-wrapper,.af-form-close-button,#af-form-333389527 img {float:none;color:inherit;margin:0;padding:0;position:static;background-color:none;border:none;}
+#af-form-333389527 div {margin:0;}
+#af-form-333389527 {display:block;}
+#af-form-333389527 body,#af-form-333389527 dl,#af-form-333389527 dt,#af-form-333389527 dd,#af-form-333389527 h1,#af-form-333389527 h2,#af-form-333389527 h3,#af-form-333389527 h4,#af-form-333389527 h5,#af-form-333389527 h6,#af-form-333389527 pre,#af-form-333389527 code,#af-form-333389527 fieldset,#af-form-333389527 legend,#af-form-333389527 blockquote,#af-form-333389527 th,#af-form-333389527 td { float:none;color:inherit;margin:0;padding:0;position:static;}
+#af-form-333389527 p { color:inherit;}
+#af-form-333389527 ul,#af-form-333389527 ol {list-style-image:none;list-style-position:outside;list-style-type:disc;padding-left:40px;}
+#af-form-333389527 .bodyText p {margin:1em 0;}
+#af-form-333389527 table {border-collapse:collapse;border-spacing:0;}
+#af-form-333389527 fieldset {border:0;}
+.af-clear{clear:both;}
+.af-form{box-sizing:border-box; margin:auto; text-align:left;}
+.af-element{padding-bottom:5px; padding-top:5px;}
+.af-form-wrapper{text-indent: 0;}
+.af-body input.submit, .af-body input.image, .af-form .af-element input.button{float:none!important;}
+.af-body input.submit{white-space: inherit;}
+.af-body input.text{width:100%; padding:2px!important;}
+.af-body .af-textWrap{text-align:left;}
+.af-element label{float:left; text-align:left;}
+.lbl-right .af-element label{text-align:right;}
+.af-quirksMode .af-element{padding-left: 0!important; padding-right: 0!important;}
+.af-body.af-standards input.submit{padding:4px 12px;}
+.af-body input.image{border:none!important;}
+.af-body input.text{float:none;}
+.af-element label{display:block; float:left;}
+.af-header,.af-footer { margin-bottom:0; margin-top:0; padding:10px; }
+
+/* AWeber form responsive adjustments */
+@media (max-width: 768px) {
+  #af-form-333389527, #af-form-333389527 .quirksMode {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  #af-form-333389527 .af-body label.previewLabel {
+    width: 100%;
+    float: none;
+    margin-bottom: 5px;
+  }
+  
+  #af-form-333389527 .af-body .af-textWrap {
+    width: 100%;
+    float: none;
+  }
 }
